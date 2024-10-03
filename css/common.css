@@ -80,6 +80,10 @@ border: 1px solid #808080;
 /* task ---- 2  */
 
 /* task -----3  */
+.input:hover {
+border: 1px solid #000;
+}
+
 
 .input {
   border: 1px solid #808080;
@@ -153,3 +157,96 @@ border: none;
     letter-spacing: 0.04em;
     color: #fff;
 }
+
+/* task -----5  */
+
+
+.widget {
+  padding-left: 45px;
+  padding-top: 45px;
+}
+
+.article-color {
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.change-color:hover {
+  background-color: #6c8cff;
+}
+
+.change-color {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 8px;
+    border: none;
+      padding: 8px 16px;
+      width: 148px;
+      height: 40px;
+      background-color: #4e75ff;
+      font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+}
+
+/* task ----6  */
+
+.input-six {
+border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 72px;
+  width: 150px;
+  height: 40px;
+  padding-left: 25px;
+}
+
+.create-btn:hover {
+  background-color: #6c8cff;
+}
+
+.create-btn {
+  border: none;
+  margin-left: 15px;
+    gap: 10px;
+    border-radius: 8px;
+      padding: 8px 16px;
+      width: 120px;
+      height: 40px;
+      background-color: #4e75ff;
+      font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+}
+
+.destroy-btn:hover {
+  background-color: #ff7070;
+}
+
+.destroy-btn {
+  border: none;
+  margin-left: 15px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background-color: #ff4e4e;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+
+
+
